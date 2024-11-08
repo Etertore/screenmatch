@@ -42,12 +42,20 @@ public class Filme {
     }
 
     public void setDuracaoEmMinutos(int duracaoEmMinutos) {
-        this.duracaoEmMinutos = duracaoEmMinutos;
+        if (duracaoEmMinutos > 0) {
+            this.duracaoEmMinutos = duracaoEmMinutos;
+        } else {
+            System.out.println("Duração inválida");
+        }
+
     }
 
     public void exibeFichaTecnica() {
-        System.out.println("Nome do br.com.etertore.modelos.Filme: " + nome);
+        System.out.println("Nome do Filme: " + nome);
         System.out.println("Ano de lançamento: " + anoDeLancamento);
+        System.out.println("Duracao em minutos: " + duracaoEmMinutos);
+        System.out.println("Incluido no Plano: " + incluidoNoPlano);
+
 
     }
 
