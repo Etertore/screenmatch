@@ -9,12 +9,11 @@ public class Principal {
         filme.setIncluidoNoPlano(true);
 
         filme.exibeFichaTecnica();
-
         filme.avalia(8);
         filme.avalia(10);
         filme.avalia(5);
 
-        System.out.println("Total de avaliações: " + filme.getTotalDeAvaliacoes());
+        //System.out.println("Total de avaliações: " + filme.getTotalDeAvaliacoes());
 
         System.out.println("Média de avaliações: " + filme.pegaMedia());
     }
