@@ -1,4 +1,4 @@
-package Exercises.Four;
+package Exercises.four;
 
 public class Carro {
     String modelo;

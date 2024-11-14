@@ -1,4 +1,4 @@
-package Exercises.Four;
+package Exercises.four;
 
 public class Principal {
     public static void main(String[] args) {

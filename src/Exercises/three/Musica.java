@@ -1,4 +1,4 @@
-package Exercises.Three;
+package Exercises.three;
 
 public class Musica {
     String titulo;
