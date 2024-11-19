@@ -1,3 +1,4 @@
+import br.com.etertore.calculos.CalculadoraDeTempo;
 import br.com.etertore.modelos.Filme;
 import br.com.etertore.modelos.Serie;
 
@@ -14,7 +15,7 @@ public class Principal {
         filme.avalia(10);
         filme.avalia(5);
 
-        //System.out.println("Total de avaliações: " + filme.getTotalDeAvaliacoes());
+        //System.out.println("Total de avaliações: "+ filme.getTotalDeAvaliacoes());
 
         System.out.println("Média de avaliações: " + filme.pegaMedia());
 
@@ -26,5 +27,17 @@ public class Principal {
         serie.setMinutosPorEpisodio(50);
         serie.setEpisodiosPorTemporada(10);
         System.out.println("Duração para maratonar Lost: " + serie.getDuracaoEmMinutos() + " minutos");
+
+        Filme filme2 = new Filme();
+        filme2.setNome("O Senhor dos Anéis: A Sociedade do Anel");
+        filme2.setAnoDeLancamento(2001);
+        filme2.setDuracaoEmMinutos(210);
+        filme2.setIncluidoNoPlano(true);
+
+        CalculadoraDeTempo calculadoraDeTempo = new CalculadoraDeTempo();
+        calculadoraDeTempo.inclui(filme);
+        calculadoraDeTempo.inclui(filme2);
+        calculadoraDeTempo.inclui(serie);
+        System.out.println(calculadoraDeTempo.getTempoTotal());
     }
 }
