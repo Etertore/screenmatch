@@ -1,4 +1,6 @@
 import br.com.etertore.calculos.CalculadoraDeTempo;
+import br.com.etertore.calculos.FiltroRecomendacao;
+import br.com.etertore.modelos.Episodio;
 import br.com.etertore.modelos.Filme;
 import br.com.etertore.modelos.Serie;
 
@@ -39,5 +41,15 @@ public class Principal {
         calculadoraDeTempo.inclui(filme2);
         calculadoraDeTempo.inclui(serie);
         System.out.println(calculadoraDeTempo.getTempoTotal());
+
+
+        FiltroRecomendacao filtroRecomendacao = new FiltroRecomendacao();
+        filtroRecomendacao.filtra(filme);
+
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setSerie(serie);
+        episodio.setTotalDeVisualizacoes(300);
+        filtroRecomendacao.filtra(episodio);
     }
 }
