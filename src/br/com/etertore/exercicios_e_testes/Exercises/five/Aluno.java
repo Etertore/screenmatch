@@ -1,4 +1,4 @@
-package Exercises.five;
+package br.com.etertore.exercicios_e_testes.Exercises.five;
 
 public class Aluno {
     String nome;

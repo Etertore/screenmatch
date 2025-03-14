@@ -1,4 +1,4 @@
-package Exercises2.one;
+package br.com.etertore.exercicios_e_testes.Exercises2.one;
 
 public class ContaBancaria {
     private double numeroConta;

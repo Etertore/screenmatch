@@ -1,4 +1,4 @@
-package Exercises.four;
+package br.com.etertore.exercicios_e_testes.Exercises.four;
 
 public class Carro {
     String modelo;

@@ -1,4 +1,4 @@
-package Exercises2.three;
+package br.com.etertore.exercicios_e_testes.Exercises2.three;
 
 public class Produto {
     private String nome;

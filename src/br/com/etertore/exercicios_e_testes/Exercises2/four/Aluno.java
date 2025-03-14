@@ -1,4 +1,4 @@
-package Exercises2.four;
+package br.com.etertore.exercicios_e_testes.Exercises2.four;
 
 public class Aluno {
     private String nome;

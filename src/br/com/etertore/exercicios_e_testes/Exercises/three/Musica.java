@@ -1,4 +1,4 @@
-package Exercises.three;
+package br.com.etertore.exercicios_e_testes.Exercises.three;
 
 public class Musica {
     String titulo;

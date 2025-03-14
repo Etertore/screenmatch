@@ -1,4 +1,4 @@
-package Exercises2.five;
+package br.com.etertore.exercicios_e_testes.Exercises2.five;
 
 public class Principal {
     public static void main(String[] args) {

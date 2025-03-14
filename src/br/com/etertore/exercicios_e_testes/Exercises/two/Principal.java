@@ -1,4 +1,4 @@
-package Exercises.two;
+package br.com.etertore.exercicios_e_testes.Exercises.two;
 
 public class Principal {
     public static void main(String[] args) {
